@@ -21,7 +21,7 @@ function App() {
     <div className='container'>
       <div  className='row g-4 my-1'>
         {products.map((product) => (
-          <div key={product.id} className='col-md-3 col'> 
+          <div key={product.id} className='col-lg-3 col-md-4 col-sm-6'> 
       <Productcard item={product}/>
       </div>
         )
